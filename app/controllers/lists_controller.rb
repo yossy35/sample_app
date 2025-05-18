@@ -24,6 +24,7 @@ class ListsController < ApplicationController
 
   def edit
     @list = List.find(params[:id])
+    byebug
   end
 
   def update
